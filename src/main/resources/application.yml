@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    name: job-repository
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3307/batch
+    username: root
+    password: root
+logging:
+  level: info
